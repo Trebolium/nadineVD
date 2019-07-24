@@ -1,0 +1,17 @@
+data_folder: '../data/'
+annotation_folder: '../data/jamendo_lab/'
+stats_folder: '../stats/'
+context: 57
+batch_size: 64
+num_epochs: 100
+fs: 22050
+fft_hop: 315
+fft_len: 1024
+num_mels: 80
+min_freq: 27.5
+max_freq: 8000
+pitch_shift_amount: 30
+time_stretch_amount: 20
+num_train_instances: 40000
+num_val_instances: 5000
+eval_hop: 50
